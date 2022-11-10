@@ -1,0 +1,53 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-color: #FFFFFF;
+    --overlay-color: #EEEEEE;
+    --logo-color: #000000;
+    --primary-background-color: #2F303A;
+    --secondary-background-color: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--primary-text-color);
+    background-color: var(--secondary-color);
+  
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--logo-color);
+}
+
+.logo-second {
+    font-family: 'Raleway', sans-serif;
+    color: var(--secondary-color);
+}
+
+.link {
+    font-family: inherit;
+    color: var(--title-text-color);
+    font-weight: 500;
+}
+
+.accent {
+color: var(--accent-color);
+}
+
+
+/* заменить на классы */
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* заменить на классы */
+
+.address {
+    font-style: normal;
+}
+
