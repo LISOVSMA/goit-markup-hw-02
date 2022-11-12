@@ -93,7 +93,11 @@ color: var(--secondary-color)
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .head-btn:hover,
@@ -120,6 +124,51 @@ ul {
     overflow: hidden;
 }
 
+.little-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+
+.text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.secondary-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.name-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.major-text {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
 .page-footer {
     background-color: var(--primary-background-color);
 }
@@ -144,5 +193,42 @@ letter-spacing: 0.03em;
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--accent-color);
+}
+
+.filter-btn {
+    font-family: inherit;
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--btn-color);
+    color: var(--secondary-color);
+}
+
+.portfolio {
+    background-color: var(--overlay-color);
+}
+
+.foto-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color)
+}
+
+.foto-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--primary-text-color)
 }
 
