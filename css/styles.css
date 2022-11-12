@@ -15,7 +15,6 @@ body {
     font-weight: 400;
     color: var(--primary-text-color);
     background-color: var(--secondary-color);
-  
 }
 
 .header-logo {
@@ -25,6 +24,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     color: var(--secondary-color);
@@ -32,6 +32,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
 .accent {
     color: var(--accent-color);
 }
@@ -47,6 +48,7 @@ body {
         letter-spacing: 0.02em;
         color: var(--title-text-color);
 }
+
 .header-link:hover,
 .header-link:focus {
     color: var(--accent-color);
@@ -105,11 +107,16 @@ color: var(--secondary-color)
     background-color: var(--btn-color);
 }
 
-/* заменить на классы */
-ul {
+.site-nav,
+.auth-nav,
+.peculiarities-list,
+.visual-list,
+.team-list,
+.list-address,
+.visually-list,
+.foto-list {
     list-style: none;
 }
-/* заменить на классы */
 
 .visually-hidden {
     position: absolute;
